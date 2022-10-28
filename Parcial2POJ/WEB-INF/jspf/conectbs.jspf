@@ -1,0 +1,7 @@
+<%@ taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql"%>
+<%@ page pageEncoding="UTF-8" %>
+<sql:setDataSource  var="parcial"
+                    driver="com.mysql.jdbc.Driver"   
+                    url="jdbc:mysql://localhost:3306/parcial2da"
+                    user="root"
+                    password="" />
